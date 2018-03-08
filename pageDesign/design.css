@@ -1,0 +1,125 @@
+body, html {
+  height: 100%;
+  background-color: #ecede8;
+}
+
+.demo {
+  display: flex;
+  flex-direction: column;          
+  align-items: center;
+  font-family: "HelveticaNeue";
+}
+
+#q-graph {
+  display: block;
+  position: relative;
+  width: 600px;
+  height: 250px;
+  background: transparent;
+  font-size: 12px;
+}
+
+#q-graph caption {
+  
+  text-align: center;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: 500;
+  width: 600px;
+  top: -70px;
+  position: relative;
+  color: #4a4a4a;
+}
+
+#q-graph tr, #q-graph th, #q-graph td {
+  position: absolute;
+  bottom: -20px;
+  width: 100px;
+  z-index: 2;
+  text-align: center;
+}
+
+#q-graph #q1 {
+  left: 50px;
+}
+
+#q-graph #q2 {
+  left: 175px;
+}
+
+#q-graph #q3 {
+  left: 300px;
+}
+
+#q-graph #q4 {
+  left: 425px;
+}
+
+#q-graph tbody th {
+  bottom: -3em;
+  color: #9c9c9c;
+  text-align:left;
+
+}
+
+#q-graph .bar {
+  width: 50px;
+}
+
+#q-graph .data {
+  left: 15px;
+  background-color: #fc808e;
+}
+
+#ticks {
+  position: relative;
+  left:-1em;
+  top: -300px;
+  font-size: 12px;
+  font-family: "HelveticaNeue";
+}
+
+#ticks .tick {
+  position: relative;
+  border-bottom: 1px solid #C4C4C4;
+  width: 600px;
+}
+
+#ticks .tick p {
+  position: absolute;
+  top: -0.8em;
+  left: -2em;
+  margin: 0 0 0 0.5em;
+  color: #4a4a4a;
+  font-family: "HelveticaNeue";
+  font-weight: 500;
+}
+#head{
+		font-family: HelveticaNeue;
+		font-size: 28px;
+		font-weight: 500;
+		color: #9c9c9c;
+}
+
+#mid {
+	
+		font-family: HelveticaNeue;
+		font-size: 18px;
+		color: #4a4a4a;
+}
+
+.diamond-shape {
+  height: 90px;
+  text-align: center;
+  transform:rotate(45deg);
+  width:90px;
+  border-radius: 20px;
+}
+.item-count {
+  color: #fff;
+  display: table-cell;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+	font-size: 4.7em;
+	font-family: HelveticaNeue;
+}
