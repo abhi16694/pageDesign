@@ -13,7 +13,6 @@
 
     #circle-shape-example {
       font-family: 'monospace';
-      margin: 2rem;
     }
 
     #circle-shape-example p {
@@ -26,10 +25,10 @@
       height: auto;
       min-width: 150px;
       float: left;
-      margin-right: 15rem;
-      border-radius: 30%;
+      margin-right: 24rem;
       -webkit-shape-outside: circle();
       shape-outside: circle();
+
     }
 
     #circle-shape-example .curve1 {
@@ -38,7 +37,6 @@
       min-width: 150px;
       float: right;
       margin-left: 15rem;
-      border-radius: 30%;
       -webkit-shape-outside: circle();
       shape-outside: circle();
     }
@@ -52,16 +50,25 @@
     }
 
     #circle-shape-example .simple1 {
-      width: 30%;
+      width: 40%;
       height: auto;
       min-width: 150px;
       float: left;
-      margin-right: 15rem;
+      margin-right: 5rem;
       background-color: #4a4a4a;
       color: white;
+      padding: 10px;
     }
+  .container1 {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+  .thumbnail {
+    display: inline-block;
+  }
 
     .circle {
+    
       border-radius: 50%;
       width: 50%;
     }
@@ -115,7 +122,7 @@
   <br>
   <div class="container">
     <div id="circle-shape-example">
-      <img src="BestCakeRecipesChocolateMarshmallowCake.jpg" alt="A photograph of Chocolate Cake" class="curve">
+      <img src="BestCakeRecipesChocolateMarshmallowCake.jpg" alt="A photograph of Chocolate Cake" class="curve" style="box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2), 5px 5px 5px 5px rgba(0, 0, 0, 0.19);">
       <h1 style="font-family: courier">Happiness Is HomeMade</h1>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -148,7 +155,7 @@
   <br>
   <br>
   <br>
-  <div class="container">
+  <div class="container1">
     <div class="row">
       <div class="col-md-4">
         <div class="thumbnail">
@@ -198,8 +205,7 @@
       <strong> Products </strong>ipsum dolor</h3>
     <div class="row">
       <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel">
           <div class="panel-body">
             <div class="btn btn-warning" style="float: right; border-radius:100px;">
               <div class="glyphicon glyphicon-heart-empty"></div>
@@ -217,12 +223,10 @@
               <button class="btn btn-warning" style="float: right;">Add to Cart</button>
             </div>
           </div>
-          <div class="panel-footer">Buy 5 Cakes and get a gift card</div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="panel panel-danger">
-          <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel">
           <div class="panel-body">
             <div class="btn btn-warning" style="float: right; border-radius:100px;">
               <div class="glyphicon glyphicon-heart-empty"></div>
@@ -240,12 +244,10 @@
               <button class="btn btn-warning" style="float: right;">Add to Cart</button>
             </div>
           </div>
-          <div class="panel-footer">Buy 5 Cakes and get a gift card</div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="panel panel-success">
-          <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel">
           <div class="panel-body">
             <div class="btn btn-warning" style="float: right; border-radius:100px;">
               <div class="glyphicon glyphicon-heart-empty"></div>
@@ -263,15 +265,13 @@
               <button class="btn btn-warning" style="float: right;">Add to Cart</button>
             </div>
           </div>
-          <div class="panel-footer">Buy 5 Cakes and get a gift card</div>
         </div>
       </div>
     </div>
     <br>
     <div class="row">
       <div class="col-sm-4">
-        <div class="panel panel-info">
-          <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel">
           <div class="panel-body">
             <div class="btn btn-warning" style="float: right; border-radius:100px;">
               <div class="glyphicon glyphicon-heart-empty"></div>
@@ -289,12 +289,10 @@
               <button class="btn btn-warning" style="float: right;">Add to Cart</button>
             </div>
           </div>
-          <div class="panel-footer">Buy 5 Cakes and get a gift card</div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="panel panel-warning">
-          <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel">
           <div class="panel-body">
             <div class="btn btn-warning" style="float: right; border-radius:100px;">
               <div class="glyphicon glyphicon-heart-empty"></div>
@@ -312,12 +310,10 @@
               <button class="btn btn-warning" style="float: right;">Add to Cart</button>
             </div>
           </div>
-          <div class="panel-footer">Buy 5 Cakes and get a gift card</div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel">
           <div class="panel-body">
             <div class="btn btn-warning" style="float: right; border-radius:100px;">
               <div class="glyphicon glyphicon-heart-empty"></div>
@@ -334,7 +330,6 @@
               <button class="btn btn-warning" style="float: right;">Add to Cart</button>
             </div>
           </div>
-          <div class="panel-footer">Buy 5 Cakes and get a gift card</div>
         </div>
       </div>
     </div>
@@ -343,8 +338,8 @@
   <br>
   <div class="container" style="background-color:  #4a4a4a; color: white;">
     <div id="circle-shape-example">
+      <i class="fa fa-quote-left fa-5x" style="color:#696969; align-items: center;"></i>
       <img src="BestCakeRecipesChocolateMarshmallowCake.jpg" alt="A photograph of Chocolate Cake" class="simple1">
-      <i class="fa fa-quote-left fa-5x fa-pull-left fa-border"></i>
       <h4> Lorem ipsum dolor sit amet, consectetur </h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem
