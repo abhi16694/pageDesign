@@ -59,16 +59,9 @@
       color: white;
       padding: 10px;
     }
-  .container1 {
-  overflow-x: scroll;
-  overflow-y: hidden;
-}
-  .thumbnail {
-    display: inline-block;
-  }
 
     .circle {
-    
+
       border-radius: 50%;
       width: 50%;
     }
@@ -79,6 +72,31 @@
       color: white;
       padding: 25px;
     }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #f1f1f1;
+    color:  black;
+}
+
+.round {
+    border-radius: 50%;
+}
   </style>
 </head>
 
@@ -155,9 +173,14 @@
   <br>
   <br>
   <br>
-  <div class="container1">
+  <div class="container">
+
     <div class="row">
-      <div class="col-md-4">
+    	<div class="col-sm-1">
+    		<br><br><br><br><br><br><br><br>
+    	<a href="#" class="previous round">&#8249;</a>
+    </div>
+      <div class="col-md-3">
         <div class="thumbnail">
           <a href="BestCakeRecipesChocolateMarshmallowCake.jpg" target="_blank">
             <img src="BestCakeRecipesChocolateMarshmallowCake.jpg" alt="Lights" class="circle">
@@ -170,7 +193,7 @@
             aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="thumbnail">
           <a href="BestCakeRecipesChocolateMarshmallowCake.jpg" target="_blank">
             <img src="BestCakeRecipesChocolateMarshmallowCake.jpg" alt="Nature" class="circle">
@@ -183,7 +206,7 @@
             aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="thumbnail">
           <a href="BestCakeRecipesChocolateMarshmallowCake.jpg" target="_blank">
             <img src="BestCakeRecipesChocolateMarshmallowCake.jpg" alt="Fjords" class="circle">
@@ -196,6 +219,10 @@
             aliquip ex ea commodo consequat.</p>
         </div>
       </div>
+      <div class="col-sm-1">
+      	<br><br><br><br><br><br><br><br>
+    	<a href="#" class="next round">&#8250;</a>
+    </div>
     </div>
   </div>
   <br>
@@ -214,7 +241,7 @@
             <h3>Lorem ipsum</h3>
             <p>Lorem ipsum dolor sit
               <button class="glyphicon glyphicon-star-empty" style="float: right; color: orange; border-radius: 100px; background-color: white;">
-              4.5/5</button>
+                4.5/5</button>
             </p>
 
             <hr>
@@ -235,7 +262,7 @@
             <h3>Lorem ipsum</h3>
             <p>Lorem ipsum dolor sit
               <button class="glyphicon glyphicon-star-empty" style="float: right; color: orange; border-radius: 100px; background-color: white;">
-              4/5</button>
+                4/5</button>
             </p>
 
             <hr>
@@ -256,7 +283,7 @@
             <h3>Lorem ipsum</h3>
             <p>Lorem ipsum dolor sit
               <button class="glyphicon glyphicon-star-empty" style="float: right; color: orange; border-radius: 100px; background-color: white;">
-              4/5</button>
+                4/5</button>
             </p>
 
             <hr>
@@ -280,7 +307,7 @@
             <h3>Lorem ipsum</h3>
             <p>Lorem ipsum dolor sit
               <button class="glyphicon glyphicon-star-empty" style="float: right; color: orange; border-radius: 100px; background-color: white;">
-              4.5</button>
+                4.5</button>
             </p>
 
             <hr>
@@ -301,7 +328,7 @@
             <h3>Lorem ipsum</h3>
             <p>Lorem ipsum dolor sit
               <button class="glyphicon glyphicon-star-empty" style="float: right; color: orange; border-radius: 100px; background-color: white;">
-              3.5/5</button>
+                3.5/5</button>
             </p>
 
             <hr>
@@ -322,7 +349,7 @@
             <h3>Lorem ipsum</h3>
             <p>Lorem ipsum dolor sit
               <button class="glyphicon glyphicon-star-empty" style="float: right; color: orange; border-radius: 100px; background-color: white;">
-              4/5</button>
+                4/5</button>
             </p>
             <hr>
             <div>
